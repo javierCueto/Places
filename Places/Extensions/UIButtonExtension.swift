@@ -25,7 +25,6 @@ extension UIButton{
     }
     
     func shine(){
-        print("here brillo")
         UIView.animate(withDuration: 0.1 ,animations: {
             self.alpha = 0.5
         }) { (completion)  in

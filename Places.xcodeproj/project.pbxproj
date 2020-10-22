@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		4536FFC62540BF6600CF68A9 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4536FFC52540BF6600CF68A9 /* UIButtonExtension.swift */; };
 		4536FFCC2540EDB600CF68A9 /* SignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4536FFCB2540EDB600CF68A9 /* SignViewController.swift */; };
+		4536FFCF2541D30600CF68A9 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4536FFCE2541D30600CF68A9 /* UIViewController.swift */; };
+		4536FFD22541D88500CF68A9 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4536FFD12541D88500CF68A9 /* RegisterViewController.swift */; };
+		4536FFD52542079000CF68A9 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4536FFD42542079000CF68A9 /* Home.storyboard */; };
+		4536FFD92542313200CF68A9 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4536FFD82542313200CF68A9 /* Settings.storyboard */; };
+		4536FFDC2542355300CF68A9 /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4536FFDB2542355300CF68A9 /* UINavigationController.swift */; };
+		4536FFDF254237F800CF68A9 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4536FFDE254237F800CF68A9 /* SettingsTableViewController.swift */; };
 		45F9908A253DF2DD00E63E00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F99089253DF2DD00E63E00 /* AppDelegate.swift */; };
 		45F9908C253DF2DD00E63E00 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F9908B253DF2DD00E63E00 /* SceneDelegate.swift */; };
 		45F99093253DF2DF00E63E00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F99092253DF2DF00E63E00 /* Assets.xcassets */; };
@@ -21,6 +27,12 @@
 /* Begin PBXFileReference section */
 		4536FFC52540BF6600CF68A9 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 		4536FFCB2540EDB600CF68A9 /* SignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignViewController.swift; sourceTree = "<group>"; };
+		4536FFCE2541D30600CF68A9 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		4536FFD12541D88500CF68A9 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		4536FFD42542079000CF68A9 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		4536FFD82542313200CF68A9 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		4536FFDB2542355300CF68A9 /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
+		4536FFDE254237F800CF68A9 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		45F99086253DF2DD00E63E00 /* Places.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Places.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F99089253DF2DD00E63E00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45F9908B253DF2DD00E63E00 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				4536FFC52540BF6600CF68A9 /* UIButtonExtension.swift */,
+				4536FFCE2541D30600CF68A9 /* UIViewController.swift */,
+				4536FFDB2542355300CF68A9 /* UINavigationController.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -85,6 +99,8 @@
 			children = (
 				45F990B0253E0B3400E63E00 /* LoginViewController.swift */,
 				4536FFCB2540EDB600CF68A9 /* SignViewController.swift */,
+				4536FFD12541D88500CF68A9 /* RegisterViewController.swift */,
+				4536FFDE254237F800CF68A9 /* SettingsTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -94,6 +110,8 @@
 			children = (
 				45F99094253DF2DF00E63E00 /* LaunchScreen.storyboard */,
 				45F990AD253E0AF300E63E00 /* Login.storyboard */,
+				4536FFD42542079000CF68A9 /* Home.storyboard */,
+				4536FFD82542313200CF68A9 /* Settings.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -190,7 +208,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				45F99096253DF2DF00E63E00 /* LaunchScreen.storyboard in Resources */,
+				4536FFD52542079000CF68A9 /* Home.storyboard in Resources */,
 				45F99093253DF2DF00E63E00 /* Assets.xcassets in Resources */,
+				4536FFD92542313200CF68A9 /* Settings.storyboard in Resources */,
 				45F990B7253E1BE500E63E00 /* Arco.jpeg in Resources */,
 				45F990AE253E0AF300E63E00 /* Login.storyboard in Resources */,
 			);
@@ -204,10 +224,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				45F990B1253E0B3400E63E00 /* LoginViewController.swift in Sources */,
+				4536FFDC2542355300CF68A9 /* UINavigationController.swift in Sources */,
 				4536FFC62540BF6600CF68A9 /* UIButtonExtension.swift in Sources */,
+				4536FFD22541D88500CF68A9 /* RegisterViewController.swift in Sources */,
+				4536FFCF2541D30600CF68A9 /* UIViewController.swift in Sources */,
 				4536FFCC2540EDB600CF68A9 /* SignViewController.swift in Sources */,
 				45F9908A253DF2DD00E63E00 /* AppDelegate.swift in Sources */,
 				45F9908C253DF2DD00E63E00 /* SceneDelegate.swift in Sources */,
+				4536FFDF254237F800CF68A9 /* SettingsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

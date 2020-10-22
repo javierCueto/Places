@@ -26,6 +26,8 @@ class LoginViewController: UIViewController {
         loginButton.jump()
     }
     
+
+    
     /*
     // MARK: - Navigation
 
